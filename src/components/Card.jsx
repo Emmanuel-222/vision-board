@@ -37,7 +37,7 @@ const Card = ({
 
   return (
     <div
-      className={`bg-white rounded-[32px] flex flex-col justify-center items-center ${
+      className={`rounded-[32px] flex flex-col justify-center items-center ${
         image
           ? "border-none"
           : "border-2 border-dashed border-gray-300 px-10 py-10"
